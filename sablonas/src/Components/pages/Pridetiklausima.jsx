@@ -54,7 +54,7 @@ const Pridetiklausima = () => {
 
                     <div>
                     <div>
-                    <label for="pavadinimas">Klausimo pavadinimas</label>
+                    <label htmlFor="pavadinimas">Klausimo pavadinimas</label>
                                     <input
                                     type="text"
                                         name="pavadinimas"
@@ -76,7 +76,7 @@ const Pridetiklausima = () => {
                     </div>
                     <div>
                     <div>
-                    <label for="klausimas">Klausimas</label>
+                    <label htmlFor="klausimas">Klausimas</label>
                                     <input
                                     type="text"
                                         name="klausimas"
