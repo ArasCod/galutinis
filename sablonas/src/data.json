@@ -1,0 +1,42 @@
+{
+    "vartotojai": [
+        {
+            "id": 1,
+            "vartotojoVardas": "Korsakas",
+            "email": "korsakas@zvejys.com",
+            "slaptazodis": "karosas",
+            "nuotrauka": "https://kaunas.kasvyksta.lt/wp-content/uploads/2013/11/Korsaku-voljero-atidarymas-02.jpg"
+        },
+
+      {   "id": 2,
+            "vartotojoVardas": "Tomas",
+            "email": "Tomas@zvejys.com",
+            "slaptazodis": "tomas",
+            "nuotrauka": "https://img.draugas.lt/nuotraukos/dideles/26/2638973dchahs.jpg"
+
+      }
+    ],
+    "Klausimai": [
+        {
+            "id": 1,
+            "vartotojoId": 1,
+            "vartotojoVardas": "Korsakas",
+            "pavadinimas": "Didziausia zuvis ? ",
+            "klausimas": "Kokia didziausia zuvi esate pagaves ? ",
+            "sukurta": "2023-12-01",
+            "redaguota": false,
+            "redagavimodata": ""
+        },
+        {
+            "id": 2,
+            "vartotojoId": 2,
+            "vartotojoVardas": "Tomas",
+            "pavadinimas": "masalas ? ",
+            "klausimas": "Koks geriausias masalas? ",
+            "sukurta": "2023-12-03",
+            "redaguota": false,   
+            "redagavimodata": ""
+        }
+    ]
+}
+
