@@ -11,7 +11,9 @@ const Klausimai = () => {
     return (
         <main>
             <h1>Visi klausimai</h1>
-            <span><Link to='/klausimai/prideti' >Prideti klausima</Link></span>
+            {
+                loggedInUser && <span><Link to='/klausimai/prideti' >Prideti klausima</Link></span>
+            }
             <div>
                 {
                     questions.map(question=>{
