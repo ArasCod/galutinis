@@ -1,13 +1,14 @@
 import styled from "styled-components";
 import UsersContext from "../../context/vartotojaicontext";
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 
 const Vienoklausimokortele = ({data}) => {
     const { users } = useContext(UsersContext);
 
     return ( 
         <div>
-            <h1>{data.pavadinimas}</h1>
+            <h1><Link to={`/klausimai/${data.id}`}>{data.pavadinimas}</Link></h1>
             <p>{data.klausimas}</p>
             <div>
                 <span>{data.sukurta}</span>

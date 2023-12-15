@@ -1,42 +1,87 @@
 {
-    "vartotojai": [
-        {
-            "id": 1,
-            "vartotojoVardas": "Korsakas",
-            "email": "korsakas@zvejys.com",
-            "slaptazodis": "karosas",
-            "nuotrauka": "https://kaunas.kasvyksta.lt/wp-content/uploads/2013/11/Korsaku-voljero-atidarymas-02.jpg"
-        },
-
-      {   "id": 2,
-            "vartotojoVardas": "Tomas",
-            "email": "Tomas@zvejys.com",
-            "slaptazodis": "tomas",
-            "nuotrauka": "https://img.draugas.lt/nuotraukos/dideles/26/2638973dchahs.jpg"
-
-      }
-    ],
-    "Klausimai": [
-        {
-            "id": 1,
-            "vartotojoId": 1,
-            "vartotojoVardas": "Korsakas",
-            "pavadinimas": "Didziausia zuvis ? ",
-            "klausimas": "Kokia didziausia zuvi esate pagaves ? ",
-            "sukurta": "2023-12-01",
-            "redaguota": false,
-            "redagavimodata": ""
-        },
-        {
-            "id": 2,
-            "vartotojoId": 2,
-            "vartotojoVardas": "Tomas",
-            "pavadinimas": "masalas ? ",
-            "klausimas": "Koks geriausias masalas? ",
-            "sukurta": "2023-12-03",
-            "redaguota": false,   
-            "redagavimodata": ""
-        }
-    ]
+  "vartotojai": [
+    {
+      "id": 1,
+      "vartotojoVardas": "Korsakas",
+      "email": "korsakas@zvejys.com",
+      "slaptazodis": "karosas",
+      "nuotrauka": "https://kaunas.kasvyksta.lt/wp-content/uploads/2013/11/Korsaku-voljero-atidarymas-02.jpg"
+    },
+    {
+      "id": 2,
+      "vartotojoVardas": "Tomas",
+      "email": "Tomas@zvejys.com",
+      "slaptazodis": "tomas",
+      "nuotrauka": "https://img.draugas.lt/nuotraukos/dideles/26/2638973dchahs.jpg"
+    },
+    {
+      "id": "747bf36b-b22b-4d73-af48-f624ef06f581",
+      "vartotojoVardas": "Molis",
+      "email": "molis@molis.com",
+      "slaptazodis": "Kaktusas12*",
+      "nuotrauka": "https://s1.15min.lt/static/cache/NjcweCw3OTF4OTcwLDEwNjA2MzAsb3JpZ2luYWwsLGlkPTg5OTQ1MTQmZGF0ZT0yMDIzJTJGMDYlMkYxMyw3NzMzMDU0ODE=/italu-meskeriotojo-sugautas-rekordinis-samas-64883eb13077e.jpg"
+    }
+  ],
+  "Klausimai": [
+    {
+      "id": 1,
+      "vartotojoId": 1,
+      "vartotojoVardas": "Korsakas",
+      "pavadinimas": "Didziausia zuvis ? ",
+      "klausimas": "Kokia didziausia zuvi esate pagaves ? ",
+      "sukurta": "2023-12-01",
+      "redaguota": false,
+      "redagavimodata": ""
+    },
+    {
+      "id": 2,
+      "vartotojoId": 2,
+      "vartotojoVardas": "Tomas",
+      "pavadinimas": "masalas ? ",
+      "klausimas": "Koks geriausias masalas? ",
+      "sukurta": "2023-12-03",
+      "redaguota": false,
+      "redagavimodata": ""
+    },
+    {
+      "id": "dcfd8330-ad56-4128-a821-aa9fb461c9f9",
+      "vartotojoId": 1,
+      "pavadinimas": "ewewew",
+      "klausimas": "kas ?",
+      "sukurta": "2023-12-12",
+      "redaguota": false,
+      "redagavimodata": ""
+    },
+    {
+      "id": "800da305-ece2-457b-a36e-75e10130b1a0",
+      "vartotojoId": 1,
+      "pavadinimas": "qwfqw",
+      "klausimas": "qwefqwef",
+      "sukurta": "2023-12-14",
+      "redaguota": false,
+      "redagavimodata": ""
+    }
+  ],
+  "atsakymai": [
+    {
+      "id": 1,
+      "klausimoId": "8bfa9493-bb85-417c-996f-8530fc5e7f7e",
+      "vartotojoId": "264211e6-5a2d-4eb7-aece-bf0c66f003e3",
+      "vartotojoVardas": "Zvejys1",
+      "atsakymas": "test atsakymas",
+      "sukurta": "2023-12-12",
+      "redaguota": false,
+      "redagavimodata": ""
+    },
+    {
+      "id": "ac553f9a-0f2b-4814-ba4e-77d78e132378",
+      "vartotojoId": "747bf36b-b22b-4d73-af48-f624ef06f581",
+      "klausimoId": 1,
+      "vartotojoVardas": "Molis",
+      "sukurta": "2023-12-14",
+      "atsakymas": "lynas",
+      "redaguota": false,
+      "redagavimodata": ""
+    }
+  ]
 }
-

@@ -1,7 +1,7 @@
 const Main = () => {
     return ( 
         <main>
-            <h1>Sveiki atvyke i zveju portala</h1>
+            <h1>Sveiki atvyke i zveju portala!</h1>
             
         </main>
      );
