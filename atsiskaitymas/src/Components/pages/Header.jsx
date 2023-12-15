@@ -22,31 +22,34 @@ div.vartotojas{
 
 
 const Header = () => {
-    const { loggedInUser, setLoggedInUser} = useContext(UsersContext);
+    const { loggedInUser, setLoggedInUser } = useContext(UsersContext);
     const navigate = useNavigate();
-    return ( 
+    return (
         <Styledheader>
             <img src="https://www.vingilis.eu/wp-content/uploads/2019/03/1-300x300.jpg" alt="Zveju logo" />
-            <div>
+            <div className="homeKlausimai">
                 <span><Link to='/'>Pradzia</Link></span>
                 <span><Link to='/klausimai/visiKlausimai'>Klausimai</Link></span>
             </div>
             <div>
-              {
-                !loggedInUser ?  <div><button><Link to='/vartotojai/prisijungti'>Prisijungti</Link></button>
-                <button>Registruotis</button> </div>:
-                <div className="vartotojas">
-                  <img src={loggedInUser.nuotrauka} alt="profile picture"/>
-                        <span>{loggedInUser.vartotojoVardas}</span>
-<button onClick={() => {
-                            setLoggedInUser('');
-                            navigate('/');}}>Atsijungti </button>
-                </div>
+                {
+                    !loggedInUser ?
+                        <div className="prisijungtiRegistruotis">
+                            <button><Link to='/vartotojai/prisijungti'>Prisijungti</Link></button>
+                            <button><Link to="/vartotojai/registruotis">Registruotis</Link></button> </div> :
+                        <div className="vartotojas">
+                            <img src={loggedInUser.nuotrauka} alt="profile picture" />
+                            <span>{loggedInUser.vartotojoVardas}</span>
+                            <button onClick={() => {
+                                setLoggedInUser('');
+                                navigate('/');
+                            }}>Atsijungti </button>
+                        </div>
 
-              }
+                }
             </div>
         </Styledheader>
-     );
+    );
 }
- 
+
 export default Header;
