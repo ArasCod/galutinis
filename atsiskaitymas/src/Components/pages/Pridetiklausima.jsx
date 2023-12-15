@@ -22,7 +22,7 @@ const Pridetiklausima = () => {
             .max(60, "Maximum 60 simboliu klausimo pavadinimui")
             .required("Privalomas laukas")
             .trim(),
-        klasuimas: Yup.string()
+        klausimas: Yup.string()
             .max(600, "Klausimas negali buti ilgesnis nei 600 simboliu")
             .required("Privalomas laukas")
             .trim()
@@ -31,6 +31,7 @@ const Pridetiklausima = () => {
         initialValues: values,
         validationSchema: validationScema,
         onSubmit: (values) => {
+            console.log ('kas kaskas')
             const finalValues = {
                 id: uuid(),
                 vartotojoId: loggedInUser.id,
